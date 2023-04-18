@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Моя HTML-страница</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Главная страница</a></li>
+          <li><a href="#reports">Отчеты</a></li>
+          <li><a href="#bizon">Бизон битрикс</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="center">
+      <div class="center_box">
+        <h1 class="center_tittle">Доступ к Bizon</h1>
+        <a class="center_exile" href="https://bizon365.ru/">Перейти на сайт</a>
+      </div>
+
+      <form class="form">
+        <div class="before ">
+        <h1 class="form_title">Введите email и API</h1>
+        <div class="form_group">
+          <input class="form_input" required/>
+          <label class="form_label">Email</label>
+        </div>
+
+        <div class="form_group">
+          <input class="form_input" required/>
+          <label class="form_label">API</label>
+        </div>
+
+        <button class="form_button" type="submit">Сохранить</button>
+      </div>
+      <div class="after notshown">
+       <span class="form_text">Отправлено</span> 
+       <button class="form_button" type="submit">Назад</button>
+      </div>
+      </form>
+    </div>
+    <div class="box">
+      <iframe
+        class="box_video"
+        src="https://www.youtube.com/embed/4Q9-v2L4h3U"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <footer></footer>
+    <script src="main.js"></script>
+  </body>
+</html>
