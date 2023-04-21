@@ -14,41 +14,52 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="#home">Главная страница</a></li>
-          <li><a href="#reports">Отчеты</a></li>
-          <li><a href="#bizon">Бизон битрикс</a></li>
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a href="./Битрикс.html">Главная страница</a>
+          </li>
+          <li class="header__list-item"><a href="./Отчеты.html">Отчеты</a></li>
+          <li class="header__list-item">
+            <a href="#">Базы</a>
+            <ul class="header__sublist">
+              <li class="header__sublist-item">
+                <a href="./Основнаябаза.html">Основная база</a>
+              </li>
+              <li class="header__sublist-item"><a href="#">Данные</a></li>
+              <li class="header__sublist-item"><a href="#">Шорт коды</a></li>
+            </ul>
+          </li>
         </ul>
       </nav>
     </header>
-    <div class="center">
+    <div class="center container">
       <div class="center_box">
         <h1 class="center_tittle">Доступ к Bizon</h1>
         <a class="center_exile" href="https://bizon365.ru/">Перейти на сайт</a>
       </div>
 
       <form class="form">
-        <div class="before ">
-        <h1 class="form_title">Введите email и API</h1>
-        <div class="form_group">
-          <input class="form_input" required/>
-          <label class="form_label">Email</label>
-        </div>
+        <div class="before">
+          <h1 class="form_title">Введите email и API</h1>
+          <div class="form_group">
+            <input class="form_input" required />
+            <label class="form_label">Email</label>
+          </div>
 
-        <div class="form_group">
-          <input class="form_input" required/>
-          <label class="form_label">API</label>
-        </div>
+          <div class="form_group">
+            <input class="form_input" required />
+            <label class="form_label">API</label>
+          </div>
 
-        <button class="form_button" type="submit">Сохранить</button>
-      </div>
-      <div class="after notshown">
-       <span class="form_text">Отправлено</span> 
-       <button class="form_button" type="submit">Назад</button>
-      </div>
+          <button class="form_button" type="submit">Сохранить</button>
+        </div>
+        <div class="after notshown">
+          <span class="form_text">Отправлено</span>
+          <button class="form_button" type="submit">Назад</button>
+        </div>
       </form>
     </div>
-    <div class="box">
+    <div class="box container">
       <iframe
         class="box_video"
         src="https://www.youtube.com/embed/4Q9-v2L4h3U"

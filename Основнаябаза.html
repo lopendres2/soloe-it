@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Моя HTML-страница</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a href="./Битрикс.html">Главная страница</a>
+          </li>
+          <li class="header__list-item"><a href="./Отчеты.html">Отчеты</a></li>
+          <li class="header__list-item">
+            <a href="#">Базы</a>
+            <ul class="header__sublist">
+              <li class="header__sublist-item">
+                <a href="./Основнаябаза.html">Основная база</a>
+              </li>
+              <li class="header__sublist-item"><a href="#">Данные</a></li>
+              <li class="header__sublist-item"><a href="#">Шорт коды</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="reports">Основные настройки Bitrix24</h1>
+    <div class="main">
+      <div class="container form-group">
+          <div class="questions">
+            Если несколько проектов, проверять по полю
+          </div>
+          <div class="form-group_title">
+              Поле в Bitrix
+          </div>
+          <div class="form-group_select">
+              <div class="select-wrapper">
+                  <select name="select-category" id="">
+                      <option value="1">Пример1</option>
+                      <option value="2">Пример2</option>
+                      <option value="3">Пример3</option>
+                      <option value="4">Пример4</option>
+                  </select> 
+              </div>
+          </div>
+          <div class="form-group_title">
+                Значение поля
+          </div>
+            <div class="form-group_select">
+                <div class="select-wrapper">
+                    <select name="select-category" id="">
+                        <option value="1">Пример1</option>
+                        <option value="2">Пример2</option>
+                        <option value="3">Пример3</option>
+                        <option value="4">Пример4</option>
+                    </select> 
+                </div>              
+          </div>
+      </div>
+      <div class="overflow">
+        <div class="search">
+          Искать только в выбранных воронках
+        </div>
+        <li class="overflow_cont">
+          <a class="overflow_exile">Рассылки клиентам[65]</a>
+          <a class="overflow_exile">Продажа техподдержки[67]</a>
+          <a class="overflow_exile">HelpDesk[69]</a>
+          <a class="overflow_exile">Соискатели стажеры[70]</a>
+          <a class="overflow_exile">Соискатели помощник бухгалтера[72]</a>
+          <a class="overflow_exile">Рассылки клиентам[65]</a>
+          <a class="overflow_exile">Продажа техподдержки[67]</a>
+          <a class="overflow_exile">HelpDesk[69]</a>
+          <a class="overflow_exile">Соискатели стажеры[70]</a>
+          <a class="overflow_exile">Соискатели помощник бухгалтера[72]</a>
+        </li>
+      </div>
+    </div>
+    <div class="fff">
+      <label class="checkbox-container">НЕ ПРОВЕРЯТЬ НА ДУБЛИ
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      <div class="questions_1">
+        Распределение сделок по менеджерам
+      </div>
+      <div class="footer-group_title">
+          Менеджер по умолчанию
+      </div>
+      <div class="footer-group_select">
+          <div class="footer_select-wrapper">
+              <select name="select-category" id="">
+                  <option value="1">Пример1</option>
+                  <option value="2">Пример2</option>
+                  <option value="3">Пример3</option>
+                  <option value="4">Пример4</option>
+              </select> 
+          </div>
+      </div>
+    </div>
+    <div class="footer_checkbox-container">
+      <label class="checkbox-container">Распределять на несколько менеджеров
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+      <label class="checkbox-container">Если есть контакт, то распределять сделку на менеджера, ответсвенного за контакт
+        <input type="checkbox">
+        <span class="checkmark"></span>
+      </label>
+    </div>
+    
+    <div class="button-container">
+      <button class="save-button">Сохранить</button>
+      <button class="cancel-button">Отмена</button>
+    </div>
+  </body>
+</html>

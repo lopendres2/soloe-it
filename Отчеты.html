@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Моя HTML-страница</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul class="header__list">
+          <li class="header__list-item">
+            <a href="./Битрикс.html">Главная страница</a>
+          </li>
+          <li class="header__list-item"><a href="./Отчеты.html">Отчеты</a></li>
+          <li class="header__list-item">
+            <a href="#">Базы</a>
+            <ul class="header__sublist">
+              <li class="header__sublist-item">
+                <a href="./Основнаябаза.html">Основная база</a>
+              </li>
+              <li class="header__sublist-item"><a href="#">Данные</a></li>
+              <li class="header__sublist-item"><a href="#">Шорт коды</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="reports">Последние отчеты с Bizon365</h1>
+    <div class="table container">
+      <ul class="table_list"></ul>
+    </div>
+    <div class="pop-up" id="pop-up">
+      <div class="pop-up_box">
+        <a class="pop-up_link" href="#">X</a>
+        <span class="pop-up_text"></span>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
